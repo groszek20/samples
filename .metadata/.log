@@ -373,3 +373,664 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-02-21 18:55:50.230 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 0 2018-02-21 19:44:13.581
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-02-21 19:44:13.581
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.jface 2 0 2018-02-21 19:44:27.116
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-02-21 19:44:27.116
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75973f7a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7940b729,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-02-21 19:45:13.700
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2018-02-21 20:52:18.540
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainApp.java [in sample [in src/main/java [in sample]]]
+  package sample
+  import org.testng.annotations.AfterGroups
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.AfterTest
+  import org.testng.annotations.BeforeGroups
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import junit.framework.Assert
+  class mainApp
+    RandomEmailGenerator obj
+    String email
+    void testEmail()
+    void beforeSuite()
+    void afterSuite()
+    void beforeTest()
+    void afterTest()
+    void beforeGroups()
+    void afterGroups()
+    void runTest2()
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-21 20:52:26.769
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-21 20:52:26.812
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-21 20:52:30.078
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_121\lib\resources.jar C:\Program Files\Java\jre1.8.0_121\lib\rt.jar C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar C:\Program Files\Java\jre1.8.0_121\lib\jce.jar C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes C:\Users\Adam\EclipseProjects\excercises\sample\target\classes C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar C:\Users\Adam\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar C:\Users\Adam\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59017 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1944236029\testng-customsuite.xml
+java -ea -classpath C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_121\lib\resources.jar:C:\Program Files\Java\jre1.8.0_121\lib\rt.jar:C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_121\lib\jce.jar:C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar:C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes:C:\Users\Adam\EclipseProjects\excercises\sample\target\classes:C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar:C:\Users\Adam\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar:C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar:C:\Users\Adam\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar:C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar org.testng.remote.RemoteTestNG -serport 59017 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1944236029\testng-customsuite.xml
+!SESSION 2018-02-27 20:23:50.530 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data C:\Users\Adam\EclipseProjects\excercises -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 0 2018-02-27 20:23:58.519
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-02-27 20:23:58.519
+!MESSAGE Cannot bind to an undefined command: plug-in='org.eclipse.lsp4e', id='org.eclipse.lsp4e.togglehighlight'
+
+!ENTRY org.eclipse.jface 2 0 2018-02-27 20:24:02.809
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-02-27 20:24:02.809
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@626ff077,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b850bb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-02-27 20:24:24.562
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Adam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:34:37.024
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:34:37.061
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:35:09.814
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:35:09.830
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:36:31.116
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:36:31.124
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:36:33.622
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:36:33.628
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:43:22.224
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:43:22.234
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:50.874
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:50.881
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:55.106
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:55.114
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:56.905
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:45:56.913
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:20.659
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:20.673
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:23.265
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:23.270
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:45.642
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:45.648
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:48.835
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:48:48.843
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 20:51:08.435
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 20:51:08.439
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 20:51:08.506
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 20:51:08.506
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 20:51:08.509
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 20:51:08.509
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.testng.eclipse 1 0 2018-02-27 20:51:34.687
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainApp.java [in sample [in src/main/java [in sample]]]
+  package sample
+  import org.testng.annotations.AfterGroups
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.AfterTest
+  import org.testng.annotations.BeforeGroups
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import junit.framework.Assert
+  class mainApp
+    RandomEmailGenerator obj
+    String email
+    void testEmail()
+    void beforeSuite()
+    void afterSuite()
+    void beforeTest()
+    void afterTest()
+    void beforeGroups()
+    void afterGroups()
+    void runTest2()
+
+!ENTRY org.testng.eclipse 1 0 2018-02-27 20:51:36.187
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_121\lib\resources.jar C:\Program Files\Java\jre1.8.0_121\lib\rt.jar C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar C:\Program Files\Java\jre1.8.0_121\lib\jce.jar C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes C:\Users\Adam\EclipseProjects\excercises\sample\target\classes C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.0\selenium-java-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.0\selenium-api-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.0\selenium-chrome-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.0\selenium-edge-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.0\selenium-firefox-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.0\selenium-ie-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.0\selenium-opera-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.0\selenium-remote-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.0\selenium-safari-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.0\selenium-support-3.8.0.jar C:\Users\Adam\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Adam\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Adam\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Adam\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\Adam\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar C:\Users\Adam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Adam\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar C:\Users\Adam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Adam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-server\3.9.1\selenium-server-3.9.1.jar C:\Users\Adam\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar C:\Users\Adam\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\Adam\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar C:\Users\Adam\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar C:\Users\Adam\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\Adam\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\Adam\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar C:\Users\Adam\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar C:\Users\Adam\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar C:\Users\Adam\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar C:\Users\Adam\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar C:\Users\Adam\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63465 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1107323887\testng-customsuite.xml
+java -ea -classpath C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_121\lib\resources.jar:C:\Program Files\Java\jre1.8.0_121\lib\rt.jar:C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_121\lib\jce.jar:C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar:C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes:C:\Users\Adam\EclipseProjects\excercises\sample\target\classes:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.0\selenium-java-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.0\selenium-api-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.0\selenium-chrome-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.0\selenium-edge-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.0\selenium-firefox-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.0\selenium-ie-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.0\selenium-opera-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.0\selenium-remote-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.0\selenium-safari-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.0\selenium-support-3.8.0.jar:C:\Users\Adam\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Adam\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Adam\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Adam\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\Adam\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar:C:\Users\Adam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Adam\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar:C:\Users\Adam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Adam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-server\3.9.1\selenium-server-3.9.1.jar:C:\Users\Adam\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar:C:\Users\Adam\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\Adam\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar:C:\Users\Adam\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar:C:\Users\Adam\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\Adam\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\Adam\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar:C:\Users\Adam\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar:C:\Users\Adam\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar:C:\Users\Adam\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar:C:\Users\Adam\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar:C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar:C:\Users\Adam\.m2\repository\junit\junit\4.12\junit-4.12.jar:C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar:C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar:C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar org.testng.remote.RemoteTestNG -serport 63465 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1107323887\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:52:12.305
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:52:12.310
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-27 20:53:52.202
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] mainApp.java [in sample [in src/main/java [in sample]]]
+  package sample
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.firefox.FirefoxDriver
+  import org.testng.annotations.AfterGroups
+  import org.testng.annotations.AfterSuite
+  import org.testng.annotations.AfterTest
+  import org.testng.annotations.BeforeGroups
+  import org.testng.annotations.BeforeSuite
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  import junit.framework.Assert
+  class mainApp
+    RandomEmailGenerator obj
+    String email
+    WebDriver wd
+    void testEmail()
+    void beforeSuite()
+    void afterSuite()
+    void beforeTest()
+    void afterTest()
+    void beforeGroups()
+    void afterGroups()
+    void runTest2()
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:53:53.747
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:53:53.751
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2018-02-27 20:53:54.083
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_121\lib\resources.jar C:\Program Files\Java\jre1.8.0_121\lib\rt.jar C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar C:\Program Files\Java\jre1.8.0_121\lib\jce.jar C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes C:\Users\Adam\EclipseProjects\excercises\sample\target\classes C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.0\selenium-java-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.0\selenium-api-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.0\selenium-chrome-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.0\selenium-edge-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.0\selenium-firefox-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.0\selenium-ie-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.0\selenium-opera-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.0\selenium-remote-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.0\selenium-safari-driver-3.8.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.0\selenium-support-3.8.0.jar C:\Users\Adam\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\Adam\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar C:\Users\Adam\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\Adam\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar C:\Users\Adam\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar C:\Users\Adam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\Adam\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar C:\Users\Adam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\Adam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-server\3.9.1\selenium-server-3.9.1.jar C:\Users\Adam\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar C:\Users\Adam\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar C:\Users\Adam\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar C:\Users\Adam\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar C:\Users\Adam\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar C:\Users\Adam\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\Adam\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar C:\Users\Adam\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar C:\Users\Adam\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar C:\Users\Adam\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar C:\Users\Adam\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar C:\Users\Adam\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar C:\Users\Adam\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar C:\Users\Adam\.m2\repository\junit\junit\4.12\junit-4.12.jar C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63530 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1716783113\testng-customsuite.xml
+java -ea -classpath C:\Users\Adam\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\962\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_121\lib\resources.jar:C:\Program Files\Java\jre1.8.0_121\lib\rt.jar:C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_121\lib\jce.jar:C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_121\lib\ext\zipfs.jar:C:\Users\Adam\EclipseProjects\excercises\sample\target\test-classes:C:\Users\Adam\EclipseProjects\excercises\sample\target\classes:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.0\selenium-java-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.0\selenium-api-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.0\selenium-chrome-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.0\selenium-edge-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.0\selenium-firefox-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.0\selenium-ie-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.0\selenium-opera-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.0\selenium-remote-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.0\selenium-safari-driver-3.8.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.0\selenium-support-3.8.0.jar:C:\Users\Adam\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\Adam\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar:C:\Users\Adam\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\Adam\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar:C:\Users\Adam\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar:C:\Users\Adam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\Adam\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar:C:\Users\Adam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\Adam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\selenium-server\3.9.1\selenium-server-3.9.1.jar:C:\Users\Adam\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar:C:\Users\Adam\.m2\repository\org\apache\commons\commons-text\1.1\commons-text-1.1.jar:C:\Users\Adam\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar:C:\Users\Adam\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar:C:\Users\Adam\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar:C:\Users\Adam\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.24\cssparser-0.9.24.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.29\htmlunit-2.29.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.28\htmlunit-core-js-2.28.jar:C:\Users\Adam\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.28\neko-htmlunit-2.28.jar:C:\Users\Adam\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\Adam\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.7.v20171121\jetty-repacked-9.4.7.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-client\9.4.7.v20170914\jetty-client-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-http\9.4.8.v20171121\jetty-http-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-io\9.4.8.v20171121\jetty-io-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-util\9.4.8.v20171121\jetty-util-9.4.8.v20171121.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.7.v20170914\jetty-xml-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar:C:\Users\Adam\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar:C:\Users\Adam\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.29.0\htmlunit-driver-2.29.0.jar:C:\Users\Adam\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.7.v20170914\websocket-api-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.7.v20170914\websocket-client-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.7.v20170914\websocket-common-9.4.7.v20170914.jar:C:\Users\Adam\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar:C:\Users\Adam\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar:C:\Users\Adam\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar:C:\Users\Adam\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar:C:\Users\Adam\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar:C:\Users\Adam\.m2\repository\junit\junit\4.12\junit-4.12.jar:C:\Users\Adam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar:C:\Users\Adam\.m2\repository\org\testng\testng\6.8.7\testng-6.8.7.jar:C:\Users\Adam\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar org.testng.remote.RemoteTestNG -serport 63530 -protocol json -d C:\Users\Adam\EclipseProjects\excercises\sample\test-output C:\Users\Adam\AppData\Local\Temp\testng-eclipse--1716783113\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:54:20.568
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 20:54:20.572
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:12:17.895
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:12:17.900
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:13:17.903
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:13:17.908
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:15:07.234
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:15:07.278
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:15:47.207
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:15:47.212
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:21:22.633
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:21:22.638
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:21:57.396
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:21:57.399
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:23:02.408
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:23:02.412
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 21:24:00.625
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 21:24:00.625
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 21:24:00.632
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 21:24:00.632
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 21:24:00.640
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.computeLabels(LaunchingResourceManager.java:240)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager$1$1.run(LaunchingResourceManager.java:142)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 21:24:00.641
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.eclemma.ui 4 4 2018-02-27 21:24:01.190
+!MESSAGE Launch shortcut 'org.testng.eclipse.shortcut' enablement expression caused exception.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:65)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:22)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.eclemma.internal.ui.actions.ContextualLaunchableTester.test(ContextualLaunchableTester.java:52)
+	at org.eclipse.core.internal.expressions.Property.test(Property.java:58)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:100)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:51)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.internal.ui.contextlaunching.LaunchingResourceManager.getShortcutsForSelection(LaunchingResourceManager.java:454)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:164)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:98)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.runInternal(AbstractLaunchToolbarAction.java:87)
+	at org.eclipse.debug.ui.actions.AbstractLaunchHistoryAction.runWithEvent(AbstractLaunchHistoryAction.java:420)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:237)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:219)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:436)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-02-27 21:24:01.191
+!MESSAGE No property tester contributes a property org.eclipse.debug.ui.matchesPattern to type class org.eclipse.jdt.internal.junit.model.TestCaseElement
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:24:02.954
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:24:02.959
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:27:12.088
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:27:12.091
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:28:18.677
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:28:18.681
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:05.596
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:05.601
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:39.533
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:39.537
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:51.743
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:29:51.747
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:34:27.757
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:34:27.761
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2018-02-27 21:35:06.688
+!MESSAGE Failed to populate overview panel
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Control.setBackgroundImage(Control.java:3191)
+	at org.eclipse.ui.forms.widgets.Section.internalSetExpanded(Section.java:111)
+	at org.eclipse.ui.forms.widgets.ExpandableComposite.setExpanded(ExpandableComposite.java:875)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17$1.process(OverviewPage.java:1150)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:35:08.321
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:35:08.325
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:35:49.999
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:35:50.003
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:44:05.867
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:44:05.875
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:44:09.073
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:44:09.077
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:49:29.193
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-02-27 21:49:29.198
+!MESSAGE Using platform encoding (Cp1250 actually) to copy filtered resources, i.e. build is platform dependent!

@@ -1,5 +1,7 @@
 package sample;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -7,8 +9,6 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 
 public class mainApp {
 
@@ -18,7 +18,6 @@ public class mainApp {
 	@Test
 	public void testEmail() {
 		System.out.println("testEmail");
-		Assert.assertEquals(email, "adam@email.pl");
 	}
 	
 	@BeforeSuite
@@ -54,7 +53,6 @@ public class mainApp {
 	@Test
 	public void runTest2() {
 		System.out.println("runTest2");
-		Assert.assertNotNull(email);
 	}
 	
 }
