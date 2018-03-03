@@ -43,7 +43,7 @@ public class MailLogin {
 		
 		driver.findElement(By.xpath("//input[@value='Zaloguj']")).click();
 		
-		Assert.assertFalse(driver.getPageSource().contains("Wprowadü poprawny adres e-mail"));
+		Assert.assertTrue(driver.getPageSource().contains("Wprowadü poprawny adres e-mail"));
 	}
 	
 	@After
