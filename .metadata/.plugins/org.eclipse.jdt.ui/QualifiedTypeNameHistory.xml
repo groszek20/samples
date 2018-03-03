@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="sample.RandomEmailGenerator"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeSuite"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterSuite"/>
@@ -9,4 +8,11 @@
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeGroups"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterGroups"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 </qualifiedTypeNameHistroy>
